@@ -1,0 +1,75 @@
+{
+  "title":"Descubra se você tem aptidão para ser um desenvolvedor Frontend, Backend ou Fullstack!",
+  "questions":[
+    {
+      "id":1,
+      "question": "Qual área do desenvolvimento você prefere?",
+      "options":[
+        {"id": 1, "name":"Design de interfaces e interações", "alias":"A"},
+        {"id": 2, "name":"Lógica de negócios e banco de dados", "alias":"B"},
+        {"id": 3, "name":"Gosto de ambos, design e lógica de negócios", "alias":"C"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Qual linguagem de programação você mais se identifica?",
+      "options":[
+        {"id": 1, "name":"JavaScript/TypeScript", "alias":"A"},
+        {"id": 2, "name":"Python", "alias":"B"},
+        {"id": 3, "name":"Java", "alias":"C"},
+        {"id": 4, "name":"Outra linguagem", "alias":"D"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "Qual aspecto do desenvolvimento você acha mais desafiador?",
+      "options":[
+        {"id": 1, "name":"Tornar a interface do usuário intuitiva e agradável", "alias":"A"},
+        {"id": 2, "name":"Otimizar o desempenho e escalabilidade do sistema", "alias":"B"},
+        {"id": 3, "name":"Equilibrar as demandas do cliente com a viabilidade técnica", "alias":"C"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Qual sua abordagem preferida ao solucionar problemas de código?",
+      "options":[
+        {"id": 1, "name":"Experimentar diferentes designs e interações", "alias":"A"},
+        {"id": 2, "name":"Analisar e otimizar algoritmos e consultas de banco de dados", "alias":"B"},
+        {"id": 3, "name":"Colaborar com a equipe para encontrar soluções pragmáticas", "alias":"C"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "Como você se sente em relação a aprender novas tecnologias e ferramentas?",
+      "options":[
+        {"id": 1, "name":"Empolgado, estou sempre buscando novas habilidades", "alias":"A"},
+        {"id": 2, "name":"Interessado, mas prefiro me aprofundar nas tecnologias que já conheço", "alias":"B"},
+        {"id": 3, "name":"Aberto, estou disposto a aprender o que for necessário para resolver problemas", "alias":"C"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "Qual é a sua experiência com controle de versão (Git, SVN, etc)?",
+      "options":[
+        {"id": 1, "name":"Avançado, uso regularmente e contribuo em projetos de código aberto", "alias":"A"},
+        {"id": 2, "name":"Intermediário, tenho alguma experiência mas ainda estou aprendendo", "alias":"B"},
+        {"id": 3, "name":"Básico, conheço o básico mas não uso regularmente", "alias":"C"},
+        {"id": 4, "name":"Nenhuma, nunca usei controle de versão", "alias":"D"}
+      ]
+    },
+    {
+      "id":7,
+      "question": "Como você lida com prazos apertados e pressão?",
+      "options":[
+        {"id": 1, "name":"Mantenho a calma e foco na resolução dos problemas", "alias":"A"},
+        {"id": 2, "name":"Fico um pouco estressado, mas consigo me manter produtivo", "alias":"B"},
+        {"id": 3, "name":"Sinto-me sobrecarregado e isso afeta minha produtividade", "alias":"C"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Você tem aptidão para ser um desenvolvedor Frontend!",
+    "B": "Você tem aptidão para ser um desenvolvedor Backend!",
+    "C": "Você tem aptidão para ser um desenvolvedor Fullstack!"
+  }
+}
